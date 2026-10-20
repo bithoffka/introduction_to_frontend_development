@@ -324,6 +324,10 @@ ul, ol, dl {
 	list-style-position: inside;
 }
 
+li {
+
+}
+
 img {
 	border-radius: 4px;
 }
@@ -392,10 +396,6 @@ figcaption {
 	border-left: 4px solid var(--dark-blue);
 }
 
-#group-list {
+.line-height {
 	line-height: 1.7rem;
-}
-
-#key-tech li {
-	margin-bottom: 1rem;
 }
