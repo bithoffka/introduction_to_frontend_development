@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Мой сайт | СПС</title>
+	</head>
+	<body>
+		<header>
+			<h1>Мой сайт</h1>
+
+			<nav>
+				<h2>Основные разделы сайта</h2>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">Обо мне</a></li>
+					<li><a href="friends.html">Друзья</a></li>
+					<li><a href="hobbies.html">Увлечения</a></li>
+					<li><a href="group.html">Группа</a></li>
+					<li><a href="sps.html">СПС</a></li>
+				</ul>
+
+				<h2>Разделы этой страницы</h2>
+				<ul>
+					<li><a href="#tech">Ключевые технологии и компоненты</a></li>
+					<li><a href="#scheme">Схема</a></li>
+					<li><a href="#docs">Официальная документация</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<article>
+				<h2>Высоконагруженные системы на Python</h2>
+
+				<p>В рамках данной темы изучаются принципы построения отказоустойчивых и масштабируемых микросервисов, способных обрабатывать большое количество запросов. Основной упор делается на использование современного асинхронного стека Python. Проектирование таких систем требует грамотного разделения ответственности между веб-серверами, базами данных, системами кэширования и брокерами сообщений, что позволяет достичь высокой производительности и надежности конечного продукта.</p>
+
+				<section id="tech">
+					<h3>Ключевые технологии и компоненты</h3>
+					<ul>
+						<li><strong>FastAPI:</strong> Современный и высокопроизводительный веб-фреймворк для создания асинхронных REST API.</li>
+						<li><strong>FastStream:</strong> Мощный фреймворк для удобной работы с потоками данных и асинхронного взаимодействия с брокерами сообщений.</li>
+						<li><strong>SQLAlchemy:</strong> Продвинутая ORM-библиотека для безопасного и структурированного взаимодействия приложения с реляционными базами данных.</li>
+						<li><strong>PostgreSQL:</strong> Надежная объектно-реляционная СУБД, выступающая в качестве основного хранилища информации в системе.</li>
+						<li><strong>Redis:</strong> Сверхбыстрое хранилище структур данных в оперативной памяти (in-memory), которое применяется для кэширования и снижения нагрузки на основную базу данных.</li>
+						<li><strong>Kafka:</strong> Распределенная платформа потоковой передачи событий, обеспечивающая надежный обмен сообщениями между различными микросервисами при колоссальных нагрузках.</li>
+					</ul>
+				</section>
+
+				<section id="scheme">
+					<h3>Схема</h3>
+
+					<figure>
+						<img src="media/sps/scheme.webp" alt="Схема взаимодействия между компонентами системы" width="750" height="500">
+						<figcaption>Схема взаимодействия между компонентами системы</figcaption>
+					</figure>
+				</section>
+			</article>
+
+			<aside id="docs">
+				<h2>Официальная документация</h2>
+
+				<ul>
+					<li><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">Документация FastAPI</a></li>
+					<li><a href="https://faststream.ag2.ai/" target="_blank" rel="noopener noreferrer">Документация FastStream</a></li>
+					<li><a href="https://docs.sqlalchemy.org/" target="_blank" rel="noopener noreferrer">Документация SQLAlchemy</a></li>
+					<li><a href="https://www.postgresql.org/docs/" target="_blank" rel="noopener noreferrer">Документация PostgreSQL</a></li>
+					<li><a href="https://redis.io/docs/" target="_blank" rel="noopener noreferrer">Документация Redis</a></li>
+					<li><a href="https://kafka.apache.org/documentation/" target="_blank" rel="noopener noreferrer">Документация Apache Kafka</a></li>
+				</ul>
+			</aside>
+		</main>
+
+		<footer>
+			<h2>Мои контакты</h2>
+			<ul>
+				<li><a href="tel:79197581615">Позвонить</a></li>
+				<li><a href="https://github.com/bithoffka" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+				
+				<li>
+					<p>Написать</p>
+					<ul>
+						<li><a href="https://t.me/e4g4e" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+						<li><a href="https://vk.ru/slofod0d0spw1" target="_blank" rel="noopener noreferrer">VK</a></li>
+						<li><a href="mailto:artembabaan8626@gmail.com">Email</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<p><small>&copy; Бабаян Артём, Институт ИТ и кибербезопасности СКФУ</small></p>
+		</footer>
+	</body>
+</html>
